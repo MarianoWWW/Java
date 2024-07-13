@@ -1,8 +1,10 @@
+// 2.2. Se ingresan las notas de dos evaluaciones de un alumno. Determinar la nota promedio.
+
 import java.util.Scanner;
 
 public class Inicial_2_2 {
     public static void main(String[] args) throws Exception {
-        // 2.2. Se ingresan las notas de dos evaluaciones de un alumno. Determinar la nota promedio.
+        
 
         Scanner scanner = new Scanner(System.in);
 

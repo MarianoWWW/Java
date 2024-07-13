@@ -1,11 +1,13 @@
+/*
+        2.3. Confeccionar un programa que pueda ingresar 2 números enteros y calcule e informe con mensajes
+        aclaratorios la suma, el producto, el cociente y el resto.
+        */
+
 import java.util.Scanner;
 
 public class Inicial_2_3 {
     public static void main(String[] args) throws Exception {
-         /*
-        2.3. Confeccionar un programa que pueda ingresar 2 números enteros y calcule e informe con mensajes
-        aclaratorios la suma, el producto, el cociente y el resto.
-        */
+        
 
         Scanner scanner = new Scanner (System.in);
 
