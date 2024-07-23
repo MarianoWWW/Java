@@ -51,16 +51,5 @@ public class Inicial_5_2_12 {
         scanner.close();
         System.out.printf("\nPromedio de los primeros valores : %.2f", ((double)total/6));
 
-
-
-
-
-
-
-
-
-
-
-
     }
 }
