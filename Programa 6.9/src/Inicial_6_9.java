@@ -33,7 +33,7 @@ public class Inicial_6_9 {
 
         int comparar = Calcular(mes, año);
 
-        if (día == comparar){
+        if (día <= comparar){
             return false;
         }
         return true;
