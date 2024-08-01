@@ -32,7 +32,7 @@ public class Inicial_4_18 {
             int día = (hoy % 100000000) / 1000000;
             int díaNacimiento = (nacimiento % 100000000) / 1000000;
             
-            if (día >= díaNacimiento){
+            if (mes == mesNacimiento && día >= díaNacimiento){
                 edad = edad +1;
             }
         }
