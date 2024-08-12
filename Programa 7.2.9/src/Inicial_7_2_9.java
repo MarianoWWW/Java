@@ -154,8 +154,11 @@ public class Inicial_7_2_9 {
         for (i= 0 ; i < 10 ; i++){
             System.out.printf("\n%30d %38.2f %% %28d", VectorTotales[i], ((double)VectorTotales[i]/totalParaPromedio)*100, VectorListas[i]);
         }
-
-
-
+        System.out.printf("\nCandidato/s que no recibieron votos en la Sede 5 : ");
+        for (i= 0 ; i < 10 ; i++){
+            if (Matriz[i][4] == 0){
+                System.out.printf("  Lista %d.", VectorListas[i]);
+            }
+        }
     }
 }
